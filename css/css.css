@@ -1,0 +1,336 @@
+.text{
+	color:#000;
+}
+.font-w{
+	color:rgb(14, 86, 119);
+}
+.font-g{
+	color:rgb(91, 160, 13);
+}
+
+
+
+
+
+/* Back grounds =================================================================================================================================================================================================================================================*/
+.bgy{
+	background-color:#FFD600;
+}
+.bgg{
+	background-color:#F5F5F5;
+}
+.bgp{
+	background-color:rgb(53, 16, 70);
+}
+
+
+/* Buttons =================================================================================================================================================================================================================================================*/
+.button {
+    background-color: #0b7436; /* Black */
+    background-image: url("wallhaven-41413.jpg")
+    border: none;
+    color: blue;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover {
+     background-color: white;
+    color: black;
+    border: 2px solid #000000; /* Green */
+}
+
+.button2 {
+	background-color: #000000; /* Black */
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin:50px;
+	position:fixed;
+	bottom:0;
+	right:0;
+}
+.button2:hover {
+     background-color: white;
+    color: black;
+    border: 2px solid #000000; /* Green */
+}
+ 
+  
+ 
+.back-to-top i {
+ 
+  font-size: 60px;
+ 
+}
+
+
+/* Borders  and Margins=================================================================================================================================================================================================================================================*/
+.content{
+	padding-top:40px;
+	padding-bottom:40px;
+	padding-left:30px;
+}
+.height{
+	padding-top:150px;
+	padding-bottom:200px;
+}
+.height-top{
+	padding-top:150px;
+}
+.margin-top{
+	margin-top:60px;
+}
+.margin-bottom{
+	margin-bottom:60px;
+}
+.boder{
+	border-bottom:thin;
+	border-bottom-color:#A0A0A0;
+	border-bottom-style:solid;
+	border-bottom-width:60%;
+}
+.boder2{
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-left:0px;
+	padding-right:30px;
+	border-bottom:thin;
+	border-bottom-color:#A0A0A0;
+	border-bottom-style:solid;
+	border-bottom-width:30%;
+	display:block;
+}
+.boder-none{
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:0px;
+	padding-right:20px;
+	
+	display:block;
+}
+.quotes{
+	border:thick #ccc solid;
+	padding:20px;
+	margin:30px;
+}
+.quotes-ncl{
+	border:thick #fff solid;
+	padding:20px;
+	margin:30px;
+}
+/* Borders  and Margins END*/
+
+
+/*Tabs And Pills=================================================================================================================================================================================================================================================*/
+
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: ;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {color: #000;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {color: #000;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: ;
+    border-top: none;
+}
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+/*Tabs And Pills END*/
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  width: 200px;
+  background:;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  list-style:circle;
+  line-height: 40px;
+  text-indent: 20px;
+  margin-left:50px;
+  margin-right:50px;
+}
+
+.sidebar-nav li a {
+  color: #666;
+  display: block;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+.sidebar-nav li a span:before {
+  position: absolute;
+  left: 0;
+  color: #41484c;
+  text-align: center;
+  width: 20px;
+  line-height: 18px;
+}
+
+.sidebar-nav li a:hover,
+.sidebar-nav li.active {
+  color:#999;
+  background:;
+  text-decoration: none;
+  border-bottom:thick;
+  border-bottom-color:#FF006e;
+  border-bottom-style:solid;
+  border-bottom-width:60%;
+  
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+  color: ;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+  color:;
+  background: none;
+}
+
+
+
+.content-header {
+  height: 65px;
+  line-height: 65px;
+}
+
+.content-header h1 {
+  margin: 0;
+  margin-left: 20px;
+  line-height: 65px;
+  display: inline-block;
+}
+
+#menu-toggle {
+
+}
+
+.btn-menu {
+  color: #000;
+} 
+
+.inset {
+  padding: 20px;
+}
+
+@media (max-width:767px) {
+
+#wrapper {
+  padding-left: 0;
+}
+
+#sidebar-wrapper {
+  left: 0;
+}
+
+#wrapper.active {
+  position: relative;
+  left: 250px;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 250px;
+  width: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#menu-toggle {
+  display: inline-block;
+}
+
+.inset {
+  padding: 15px;
+}
+
+}
