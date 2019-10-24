@@ -1,10 +1,22 @@
-Body{background-size: cover;
-    background-position-x: center;
-    background-color: azure;
-   
-    
-    }
-    h1,h2{
-        text-align: initial;
-        /
+{
+    margin:0;
+    padding:0;
 }
+wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.img-wolf{
+    width:1200px ;
+    height: 800px;     
+background-image: url(\images\Morty.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left;
+}
+.img-wolf:hover{
+    background-size: 200%;
+}
+body{
+    background-color: aquamarine;
+} 
