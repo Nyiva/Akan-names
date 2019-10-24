@@ -1,3 +1,5 @@
+@import url(bootsrap.css);
+@import url(bootsrap.min.css);
 Body{background-size: cover;
     background-position-x: center;
     font-family: 'Libre Baskerville', serif;
@@ -28,7 +30,7 @@ background-position: left;
     background-size: 200%;
 }
 body{
-    background-image: url(http://www.photobackgroundhd.com/wp-content/uploads/2019/09/rick-and-morty-hd-photo.jpg);
+    background-image: url(http://www.photobackgroundhd.com/wp-content/uploads/2019/09/rick-and-morty-wallpaper-for-smartphone.jpg);
     <body style="
     float: right;
     margin-left: 28%;
