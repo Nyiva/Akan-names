@@ -5,10 +5,22 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css\style.css">
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">	
+<style> 
+        input[type=button], input[type=submit], input[type=reset] {
+          background-color: #4CAF50;
+          border: none;
+          color: white;
+          padding: 16px 32px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        </style>
 </head> 
 <body>
         
 <div class="wrapper">
+
 
     <h1>Akan names </h1>
     <p>Akan names are derived from Ghanian culture. 
@@ -19,7 +31,7 @@
 </div>
 <form class="form-style-4" action="" method="post">
         <label for="field1">
-                <span>Enter Your Day of Birth</span><input type="number" name="field1" required="" />
+            <span>Enter Your Day of Birth</span><input type="number" name="field1" required="" />
             </label><br>
             <label for="field2">
             <span>month of birth</span><input type="text" name="field2" required="" />
@@ -30,8 +42,8 @@
     </label>
     
     <input type="radio" name="gender" value="male"> Male<br>
-<input type="radio" name="gender" value="female"> Female<br>
-
+    <input type="radio" name="gender" value="female"> Female<br>
+    <input type="submit" value="Submit">
 </form>
 </Body>           
 </html>
