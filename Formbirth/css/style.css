@@ -133,7 +133,7 @@ body{
 
 } 
 button {
-    background-color: rgb(121, 24, 64); /* Green */
+    background-color: rgb(121, 24, 64); 
     border: none;
     color: rgb(97, 8, 42);
     padding: 15px 32px;
