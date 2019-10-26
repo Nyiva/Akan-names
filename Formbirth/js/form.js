@@ -9,33 +9,33 @@ var ee=parseInt(year.slice(0,2));
 var aa=parseInt(year.slice(2,4));
 var fml= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7;
 var birthdate=fml.toFixed(0);
-  if(masculine=="male"&&birthdate==0){
-      return document.getElementsByName("result").innerHTML=name(0);
-  }
-  else if(masculine=="male"&& birthdate==1){
-      return document.getElementsByName("result").innerHTML=name(1);
-
-  }
-  else if(masculine=="male"&& birthdate==2){
-      return document.getElementsByName("result").innerHTML=name(2);
-  }
-  else if(masculine=="male"&& birthdate==3){
-    return document.getElementsByName("result").innerHTML=name(3);
+if(masculine=="female"&&birthdate==0){
+    return document.getElementsByName("result").innerHTML=name(0);
+}
+else if(masculine=="female"&& birthdate==1){
+    return document.getElementsByName("result").innerHTML=name(1);
 
 }
-else if(masculine=="male"&& birthdate==4){
-    return document.getElementsByName("result").innerHTML=name(4);
+else if(masculine=="female"&& birthdate==2){
+    return document.getElementsByName("result").innerHTML=name(2);
+}
+else if(masculine=="female"&& birthdate==3){
+  return document.getElementsByName("result").innerHTML=name(3);
 
 }
-else if(masculine=="male"&& birthdate==5){
-    return document.getElementsByName("result").innerHTML=name(5);
+else if(masculine=="female"&& birthdate==4){
+  return document.getElementsByName("result").innerHTML=name(4);
 
 }
-else if(masculine=="male"&& birthdate==6){
-    return document.getElementsByName("result").innerHTML=name(6);
+else if(masculine=="female"&& birthdate==5){
+  return document.getElementsByName("result").innerHTML=name(5);
 
 }
-else if(masculine=="male"&& birthdate==7){
-    return document.getElementsByName("result").innerHTML=name(7);
+else if(masculine=="female"&& birthdate==6){
+  return document.getElementsByName("result").innerHTML=name(6);
+
+}
+else if(masculine=="female"&& birthdate==7){
+  return document.getElementsByName("result").innerHTML=name(7);
 
 }
