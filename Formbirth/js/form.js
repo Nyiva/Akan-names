@@ -24,6 +24,18 @@ var birthdate=fml.toFixed(0);
 
 }
 else if(masculine=="male"&& birthdate==4){
-    return document.getElementsByName("result").innerHTML=name(1);
+    return document.getElementsByName("result").innerHTML=name(4);
+
+}
+else if(masculine=="male"&& birthdate==5){
+    return document.getElementsByName("result").innerHTML=name(5);
+
+}
+else if(masculine=="male"&& birthdate==6){
+    return document.getElementsByName("result").innerHTML=name(6);
+
+}
+else if(masculine=="male"&& birthdate==7){
+    return document.getElementsByName("result").innerHTML=name(7);
 
 }
