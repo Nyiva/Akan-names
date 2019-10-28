@@ -4,10 +4,11 @@ this are names derived from Ghanian culture. Frequently in Ghana, children are g
 Ian Charawe
 ## Deploying
 get my live link @ https://github.com/Nyiva/IanCharawe.github.io
-## Project Setup
-
+## Screenshot
+![Capture] (Capture.PNG)
+![akan](akan.PNG)
 ## Description
-This Project helps in generating ghanian names after someone inputs day,date,year of birth` 
+This Project helps in generating ghanian names after someone input day,date,year of birth, gender so as to  project the names.
 ## BDD 
 ## BUGS
 Java script and html , css has some bugs
