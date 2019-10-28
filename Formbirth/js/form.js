@@ -7,7 +7,7 @@ var century=parseInt(document.getElementsByName(century));
 var masculine=parseInt(document.getElementsByName(gender));
 var ee=parseInt(year.slice(0,2));
 var aa=parseInt(year.slice(2,4));
-
+var oo=parseInt(year.slice)
 
 var fml= ( ( (ee/4) -2*ee-1) + ((5*aa/4) ) + ((26*(MM+1)/10)) + DD )%7;
 var birthdate=fml.toFixed(0);
