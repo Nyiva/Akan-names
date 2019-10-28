@@ -2,8 +2,8 @@ function akan (){
 var daysoftheweek=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 var akanmale=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var akanfemale=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-var day=parseInt(document.getElementsByName("day")value);
-var month=parseInt(document.getElementsByName("month")value);
+var day=parseInt(document.getElementsByName("day").value);
+var month=parseInt(document.getElementsByName("month").value);
 //let century=parseInt(document.getElementsByName(century));
 let masculine=parseInt(document.getElementsByName(gender));
 //let ee=parseInt(year.slice(0,2));
