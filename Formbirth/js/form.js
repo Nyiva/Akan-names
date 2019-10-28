@@ -13,31 +13,27 @@ let masculine=parseInt(document.getElementsByName(gender));
 //let fml= ( ( (ee/4) -2*ee-1) + ((5*aa/4) ) + ((26*(MM+1)/10)) + DD )%7;
 //let birthdate=fml.toFixed(0);
 if(day<1 ||day>31){
-    return document.getElementsByName("result").innerHTML=name("Enter valid date");
+    return document.getElementsByName("result").innerHTML=("Enter valid date");
   }
  if(month<1 || month>12){
-    return document.getElementsByName("result").innerHTML=name("Enter valid date");
+    return document.getElementsByName("result").innerHTML=("Enter valid date");
 
 }
 if(year<1900 || year>2090){
-    return document.getElementsByName("result").innerHTML=name("Enter valid date");
+    return document.getElementsByName("result").innerHTML=("Enter valid date");
 }
 if(month==2&& day<1||day>29){
-  return document.getElementsByName("result").innerHTML=name("Enter valid date");
+  return document.getElementsByName("result").innerHTML=("Enter valid date");
 
 }
 var gdate= new Date(${year}-{month}-{day});
 var b=gdate.getDay();
-else if(masculine=="female"&& birthdate==5){
-  return document.getElementsByName("result").innerHTML=name(5);
+ if(masculine=="male"){
+  return document.getElementsByName("result").innerHTML=akanmale(b);
 
 }
-else if(masculine=="female"&& birthdate==6){
-  return document.getElementsByName("result").innerHTML=name(6);
-
-}
-else if(masculine=="female"&& birthdate==7){
-  return document.getElementsByName("result").innerHTML=name(7);
+if(masculine=="female"){
+  return document.getElementsByName("result").innerHTML=akanfemale(b);
 
 }
 }
